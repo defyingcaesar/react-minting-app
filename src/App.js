@@ -50,8 +50,8 @@ function App() {
 
   async function mint() {
     setMinting(true);
-    const myAccount = "0x391EC0c94451e924C76a2B1ffc08268823f094e5"; //Account to receive payment
-    const price = "0.01"; // This is the price in ETH
+    const myAccount = "0xbe12ba18651679b232e6cFeD5CCf41cD66407770"; //Account to receive payment
+    const price = "1"; // This is the price in ETH
 
     let obj = {
       to: myAccount,
